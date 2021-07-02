@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\burak\\source\\repos\\NetCoreBackend\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\burak.acar\\Source\\Repos\\NetCoreBackend\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\burak\\source\\repos\\NetCoreBackend\\Core\\Core.csproj": {
+    "C:\\Users\\burak.acar\\Source\\Repos\\NetCoreBackend\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\burak\\source\\repos\\NetCoreBackend\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\burak.acar\\Source\\Repos\\NetCoreBackend\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\burak\\source\\repos\\NetCoreBackend\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\burak\\source\\repos\\NetCoreBackend\\Core\\obj\\",
+        "projectPath": "C:\\Users\\burak.acar\\Source\\Repos\\NetCoreBackend\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\burak.acar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\burak.acar\\Source\\Repos\\NetCoreBackend\\Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\burak.acar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,25 +92,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\burak\\source\\repos\\NetCoreBackend\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\burak.acar\\Source\\Repos\\NetCoreBackend\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\burak\\source\\repos\\NetCoreBackend\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\burak.acar\\Source\\Repos\\NetCoreBackend\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\burak\\source\\repos\\NetCoreBackend\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\burak\\source\\repos\\NetCoreBackend\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\burak.acar\\Source\\Repos\\NetCoreBackend\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\burak.acar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\burak.acar\\Source\\Repos\\NetCoreBackend\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\burak.acar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -128,11 +120,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\burak\\source\\repos\\NetCoreBackend\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\burak\\source\\repos\\NetCoreBackend\\Core\\Core.csproj"
+              "C:\\Users\\burak.acar\\Source\\Repos\\NetCoreBackend\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\burak.acar\\Source\\Repos\\NetCoreBackend\\Core\\Core.csproj"
               },
-              "C:\\Users\\burak\\source\\repos\\NetCoreBackend\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\burak\\source\\repos\\NetCoreBackend\\Entities\\Entities.csproj"
+              "C:\\Users\\burak.acar\\Source\\Repos\\NetCoreBackend\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\burak.acar\\Source\\Repos\\NetCoreBackend\\Entities\\Entities.csproj"
               }
             }
           }
@@ -167,25 +159,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\burak\\source\\repos\\NetCoreBackend\\Entities\\Entities.csproj": {
+    "C:\\Users\\burak.acar\\Source\\Repos\\NetCoreBackend\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\burak\\source\\repos\\NetCoreBackend\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\burak.acar\\Source\\Repos\\NetCoreBackend\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\burak\\source\\repos\\NetCoreBackend\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\burak\\source\\repos\\NetCoreBackend\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\burak.acar\\Source\\Repos\\NetCoreBackend\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\burak.acar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\burak.acar\\Source\\Repos\\NetCoreBackend\\Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\burak.acar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -199,8 +187,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\burak\\source\\repos\\NetCoreBackend\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\burak\\source\\repos\\NetCoreBackend\\Core\\Core.csproj"
+              "C:\\Users\\burak.acar\\Source\\Repos\\NetCoreBackend\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\burak.acar\\Source\\Repos\\NetCoreBackend\\Core\\Core.csproj"
               }
             }
           }
@@ -229,7 +217,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

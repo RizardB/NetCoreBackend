@@ -82,3 +82,11 @@ C:\Users\burak\source\repos\NetCoreBackend\ConsoleUI\obj\Debug\net5.0\ConsoleUI.
 C:\Users\burak\source\repos\NetCoreBackend\ConsoleUI\obj\Debug\net5.0\ConsoleUI.dll
 C:\Users\burak\source\repos\NetCoreBackend\ConsoleUI\obj\Debug\net5.0\ref\ConsoleUI.dll
 C:\Users\burak\source\repos\NetCoreBackend\ConsoleUI\obj\Debug\net5.0\ConsoleUI.pdb
+C:\Users\burak.acar\Source\Repos\NetCoreBackend\ConsoleUI\obj\Debug\net5.0\ConsoleUI.csproj.AssemblyReference.cache
+C:\Users\burak.acar\Source\Repos\NetCoreBackend\ConsoleUI\obj\Debug\net5.0\ConsoleUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\burak.acar\Source\Repos\NetCoreBackend\ConsoleUI\obj\Debug\net5.0\ConsoleUI.AssemblyInfoInputs.cache
+C:\Users\burak.acar\Source\Repos\NetCoreBackend\ConsoleUI\obj\Debug\net5.0\ConsoleUI.AssemblyInfo.cs
+C:\Users\burak.acar\Source\Repos\NetCoreBackend\ConsoleUI\obj\Debug\net5.0\ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Users\burak.acar\Source\Repos\NetCoreBackend\ConsoleUI\obj\Debug\net5.0\ConsoleUI.dll
+C:\Users\burak.acar\Source\Repos\NetCoreBackend\ConsoleUI\obj\Debug\net5.0\ref\ConsoleUI.dll
+C:\Users\burak.acar\Source\Repos\NetCoreBackend\ConsoleUI\obj\Debug\net5.0\ConsoleUI.pdb
