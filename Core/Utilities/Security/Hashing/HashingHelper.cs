@@ -25,7 +25,7 @@ namespace Core.Utilities.Security.Hashing
                 var compotedHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(password));
                 for (int i = 0; i < compotedHash.Length; i++)
                 {
-                    if (compotedHash[i] != password[i])
+                    if (compotedHash[i] != passwordHash[i])
                     {
                         return false;
                     }

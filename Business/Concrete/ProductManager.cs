@@ -2,6 +2,8 @@
 using Business.BusinessAspect.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Caching;
+using Core.Aspects.Autofac.Transaction;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Business;
@@ -15,6 +17,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Transactions;
 
 namespace Business.Conrete
 {
@@ -29,8 +32,9 @@ namespace Business.Conrete
         }
 
         //Claim
-        [SecuredOperation("admin,editor")]
+        [SecuredOperation("admin,product.add")]
         [ValidationAspect(typeof(ProductValidator))]
+        [CacheRemoveAspect("IProductService.Get")]
         public IResult Add(Product product)
         {
             IResult result = BusinessRules
@@ -41,18 +45,14 @@ namespace Business.Conrete
             {
                 return result;
             }
-            else
-            {
-                _productDal.Add(product);
-                return new SuccessResult(Messages.ProductAdded);
-            }
-            return new ErrorResult();
+            _productDal.Add(product);
+            return new SuccessResult(Messages.ProductAdded);
         }
 
+        [CacheAspect] //key, value
         public IDataResult<List<Product>> GetAll()
         {
             //İş kodları yetkiler vs.
-
             //if (DateTime.Now.Hour == 21)
             //{
             //    return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
@@ -65,6 +65,7 @@ namespace Business.Conrete
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.CategoryId == id));
         }
 
+        [CacheAspect()]
         public IDataResult<Product> GetById(int productId)
         {
             return new SuccessDataResult<Product>(_productDal.Get(p => p.ProductId == productId));
@@ -96,7 +97,7 @@ namespace Business.Conrete
         private IResult CheckIfProductNameExits(string productName)
         {
             var result = _productDal.GetAll(p => p.ProductName == productName).Any();
-            if (!result)
+            if (result)
             {
                 return new ErrorResult(Messages.ProductNameAlreadyExits);
             }
@@ -113,5 +114,12 @@ namespace Business.Conrete
             return new SuccessResult();
         }
 
+        [TransactionScopeAspect]
+        public IResult AddTransactionalTest(Product product)
+        {
+            _productDal.Add(product);
+            _productDal.Add(product);
+            return new SuccessResult(Messages.ProductUpdated);
+        }
     }
 }
